@@ -17,7 +17,7 @@ export default function VersionPage({}) {
     }, []);
 
     async function onReady() {
-        const d = await fetch('/config/version.json').then(res => res.json())
+        const d = await fetch('./config/version.json').then(res => res.json())
         setVersion(d.list);
         return true;
     }

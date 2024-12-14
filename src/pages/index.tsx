@@ -172,8 +172,8 @@ function HomepageContent() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-12 col-sm-3 col-md-7 exhibition-box">
-                        <img src="/images/exhibition.png" className="exhibition"/>
+                    <div className="col-12 col-sm-3 col-md-7 exhibition-box" style={{minHeight: '100vh'}}>
+                        <img src="./images/exhibition.png" className="exhibition"/>
                     </div>
                 </section>
             </div>
