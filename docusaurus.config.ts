@@ -6,7 +6,7 @@ const config: Config = {
     title: 'BFBAN APP',
     favicon: 'images/logo.png',
     url: 'https://bfban-app.cabbagelol.net',
-    baseUrl: '/',
+    baseUrl: '/bfban-app-website-v2/',
 
     organizationName: 'cabbagelol',
     projectName: 'bfban-app-website-v2',
