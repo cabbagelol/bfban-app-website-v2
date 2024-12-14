@@ -1,0 +1,268 @@
+{
+  "app": {
+    "basic": {
+      "function": {
+        "auto": {
+          "title": "自动",
+          "describe": "依照系统决定"
+        }
+      },
+      "message": {
+        "saveSuccess": "保存成功",
+        "saveError": "保存失败"
+      },
+      "time": {
+        "seconds": "{s}秒前",
+        "minutes": "{s}分钟前",
+        "hours": "{s}小时前",
+        "today": "今天",
+        "yesterday": "昨天",
+        "beforeYesterday": "前天",
+        "dayAgo": "{s}天前"
+      },
+      "web_site": "网站地址",
+      "setting": "设置",
+      "app_exit": "再次点击,退出程序"
+    },
+    "media": {
+      "open": "查看",
+      "delete": "删除",
+      "fileInfo": "详细信息",
+      "uploadFile": "上传文件",
+      "export": "导出",
+      "tab": {
+        "local": "本地",
+        "cloud": "云图库"
+      }
+    },
+    "home": {
+      "scancode": "拍摄",
+      "takeLook": "随便看看",
+      "needAccount": "此功能需要账户, 请先登录",
+      "tabs": {
+        "activities": "动态",
+        "tourRecord": "游览记录",
+        "subscribes": "追踪",
+        "trend": "热门案件"
+      },
+      "screen": {
+        "banAppeal": "申诉",
+        "judgement": "判决",
+        "report": "举报",
+        "signup": "新用户"
+      },
+      "paging": "第{num}页"
+    },
+    "splash": {
+      "account": "加载账户信息",
+      "appInitial": "初始化程序应用",
+      "dir": "初始储存配置",
+      "guide": "初始引导",
+      "message": "更新消息",
+      "networkError": "应用未连接网络,程序依赖在线服务",
+      "theme": "初始化主题",
+      "token": "用户身份配置",
+      "version": "验证版本服务"
+    },
+    "guide": {
+      "endNext": "完成",
+      "agreement": {
+        "title": "协议",
+        "content": "协议内容..",
+        "errorContent": "网络错误无法获取协议内容,请访问:"
+      },
+      "login": {
+        "title": "欢迎您到来",
+        "label": "如果你已经拥有BFBAN账户,现在就可登录.",
+        "welcomeBack": "欢迎回到我们的'战场'上"
+      },
+      "permission": {
+        "title": "权限",
+        "label": "依照您需求触摸下方单元,预先授权应用权限;此处并非强制要求,在需要特定功能下程序会提示您未授权的权限询问;一些功能不授权不影响整体APP使用",
+        "tip": "如果存在【永久拒绝】选项,可以到设置>应用>权限随时修改",
+        "list": {
+          "manageExternalStorage": {
+            "name": "外部储存",
+            "describe": "此功能用于从外部储存读取和写入媒体素材"
+          },
+          "camera": {
+            "name": "摄像头",
+            "describe": "拍摄或录制多媒体,媒体内容多为证据"
+          },
+          "audio": {
+            "name": "声音",
+            "describe": "拍摄或录制多媒体声音"
+          },
+          "videos": {
+            "name": "视频",
+            "describe": "读取视频内容,用途素材导入或导出、上传"
+          },
+          "photos": {
+            "name": "相册",
+            "describe": "读取相册内容,用途素材导入或导出、上传"
+          },
+          "storage": {
+            "name": "本地储存",
+            "describe": "由用户在APP内生成数据"
+          },
+          "notification": {
+            "name": "通知",
+            "describe": "程序提供外部通知"
+          }
+        },
+        "status": {
+          "-1": "未知",
+          "0": "准许",
+          "1": "被拒绝",
+          "2": "永久拒绝",
+          "3": "受限制"
+        }
+      },
+      "language": {
+        "waitDownloadHint": "请等待从远程服务下载翻译文件"
+      },
+      "agree": "我同意以上内容"
+    },
+    "setting": {
+      "title": "设置中心",
+      "cell": {
+        "information": {
+          "title": "账户",
+          "describe": "修改用户名称,修改密码,账户设置"
+        },
+        "customReply": {
+          "title": "自定义模板",
+          "describe": "回复模板"
+        },
+        "media": {
+          "title": "媒体库",
+          "describe": "图片,视频,上传文件,管理"
+        },
+        "dirConfiguration": {
+          "title": "文件夹配置",
+          "describe": "默认文件夹，文件扫描",
+          "scanDirectoryTitle": "扫描目录",
+          "scanDirectoryDescription": "选择扫描文件目录(多选)",
+          "defaultSavePathTitle": "默认下载位置",
+          "defaultSavePathDirectory": "程序内下载首选储存位置",
+          "leastOneHint": "至少选择一个"
+        },
+        "website": {
+          "title": "网站地址",
+          "describe": "联BAN网站"
+        },
+        "resources": {
+          "title": "支持",
+          "describe": "引导、程序Github、许可证、应用文档"
+        }
+      },
+      "versions": {
+        "title": "版本",
+        "describe": "更新,最新版本,当前版本",
+        "currentVersion": "当前版本",
+        "newVersion": "最新版本",
+        "newVersionDescribe_new": "已经最新",
+        "newVersionDescribe_old": "过时的版本",
+        "type": "类型",
+        "superHairVersionTip": "未找到对应版本,您当前版本可能是超发版本"
+      },
+      "language": {
+        "title": "语言"
+      },
+      "theme": {
+        "title": "主题",
+        "describe": "颜色外观,定时主题切换,字体大小",
+        "textScaleFactor": "字体大小"
+      },
+      "cleanManagement": {
+        "title": "清理",
+        "describe": "删除本地数据,谨慎操作"
+      },
+      "appInfo": {
+        "title": "应用程序",
+        "describe": "打开程序应用信息"
+      },
+      "notice": {
+        "title": "通知设置",
+        "describe": "应用相应通知管理",
+        "tagstitle": "身份标签",
+        "switch": {
+          "title": "应用推送",
+          "describe": "是否接收来自应用推送信息"
+        },
+        "site": {
+          "title": "站内推送",
+          "describe": "是否接收站内消息推送"
+        }
+      },
+      "support": {
+        "title": "支持",
+        "guide": "应用初始引导",
+        "feedbackTitle": "反馈群(612949946)",
+        "feedbackDescription": "和作者更加接近呢",
+        "githubTitle": "Github",
+        "githubDescription": "访问开源仓库",
+        "donateTitle": "捐赠",
+        "donateDescription": "向BFBAN APP的开发者捐赠",
+        "licenseTitle": "许可证",
+        "licenseDescription": "列出程序许可证",
+        "appDocumentationTitle": "应用文档",
+        "appDocumentationDescription": "帮助文档地址"
+      },
+      "publicTranslator": {
+        "title": "翻译模块",
+        "describe": "翻译密匙配置,开关",
+        "switch": "开关",
+        "switchDescription": "翻译模块启动开关"
+      }
+    },
+    "networkDetection": {
+      "title": "网络监测",
+      "status": {
+        "0": "检查中",
+        "1": "服务正常",
+        "2": "服务异常",
+        "3": "服务未知"
+      }
+    },
+    "userspace": {
+      "title": "用户控件",
+      "introduction": "这个人很懒什么都没说",
+      "row": {
+        "privilege": "身份",
+        "joinTime": "加入时间",
+        "lastOnlineTime": "最后在线时间",
+        "reportCount": "举报总数"
+      }
+    },
+    "report": {
+      "title": "举报玩家",
+      "overflowLength": "添加的链接超出最大长度,请删减链接或使用短链接,推荐点击下方按钮将所有链接放置描述中",
+      "overflowLengthButton": "好的,添加描述框中"
+    },
+    "detail": {
+      "openExplorePlayerDetail": "游览器查看案件"
+    },
+    "signin": {
+      "title": "登录",
+      "panel": {
+        "title": "BFBAN",
+        "label": "欢迎使用BFBAN APP",
+        "BfbanAccountButton": "BFBAN 账户登录",
+        "cancelButton": "取消",
+        "signupButton": "注册BFBAN账户"
+      },
+      "accountId": "账户ID/邮箱",
+      "password": "密码",
+      "verificationCode": "验证码"
+    },
+    "search": {
+      "historySearch": "历史搜索",
+      "hotRecommendation": "热门推荐"
+    },
+    "richedit": {
+      "placeholder": "写点什么?"
+    }
+  }
+}
+

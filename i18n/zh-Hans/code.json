@@ -1,0 +1,71 @@
+{
+  "title": {
+    "message": "BFBAN助手应用"
+  },
+  "nav.home": {
+    "message": "首页"
+  },
+  "nav.officeWebSite": {
+    "message": "联BFBAN网站"
+  },
+  "agreement.userAgreement": {
+    "message": "使用协议"
+  },
+  "agreement.privacyAgreement": {
+    "message": "隐私协议"
+  },
+  "home.h1-name": {
+    "message": "联BAN"
+  },
+  "home.h1": {
+    "message": "调查局应用程序"
+  },
+  "home.h2": {
+    "message": "基于BFBAN开源社区开发的移动应用，优化移动设备在BFBAN.com上本地交互。"
+  },
+  "home.hint": {
+    "message": "该应用由BFBAN社区支持,应用不管理任何账户"
+  },
+  "home.downloadShow.button": {
+    "message": "点击下载 BFBAN助手"
+  },
+  "home.downloadShow.downloadQRCode": {
+    "message": "通过扫描二维码下载"
+  },
+  "home.downloadShow.title": {
+    "message": "下载平台"
+  },
+  "home.downloadShow.fromFormal": {
+    "message": "正式"
+  },
+  "home.downloadShow.fromTest": {
+    "message": "测试"
+  },
+  "home.downloadMore.1": {
+    "message": "测试申请"
+  },
+  "home.downloadMore.2": {
+    "message": "反馈"
+  },
+  "home.downloadMore.3": {
+    "message": "文档"
+  },
+  "home.downloadMore.4": {
+    "message": "捐赠"
+  },
+  "home.version": {
+    "message": "版本"
+  },
+  "home.release": {
+    "message": "发行号"
+  },
+  "home.other": {
+    "message": "其他"
+  },
+  "footer.main.description": {
+    "message": "由蔡萌开发，基于蔡萌服务实现的蔡萌助手app"
+  },
+  "footer.main.title": {
+    "message": "©Bfban助手 2021-{endTime}"
+  }
+}

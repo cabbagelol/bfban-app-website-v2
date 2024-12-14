@@ -1,0 +1,207 @@
+{
+  "list": [
+    {
+      "version": "0.2.12",
+      "build-number": {
+        "ios": [
+          4,
+          3,
+          2,
+          1
+        ],
+        "android": [
+          48,
+          47,
+          46
+        ],
+        "hap": [
+          1
+        ]
+      },
+      "stage": "release",
+      "platform": {
+        "google-play": {
+          "url": "https://play.google.com/store/apps/details?id=com.cabbagelol.bfban"
+        },
+        "apple": {
+          "url": "https://apps.apple.com/us/app/bfban/id6446828173"
+        }
+      },
+      "options": {
+        "forced-push": false,
+        "D": false
+      }
+    },
+    {
+      "version": "0.2.11",
+      "stage": "release",
+      "platform": {
+        "google-play": {
+          "url": "https://play.google.com/store/apps/details?id=com.cabbagelol.bfban"
+        },
+        "apple": {
+          "url": "https://apps.apple.com/us/app/bfban/id6446828173"
+        }
+      }
+    },
+    {
+      "version": "0.2.10",
+      "stage": "release",
+      "platform": {
+        "google-play": {
+          "url": "https://play.google.com/store/apps/details?id=com.cabbagelol.bfban"
+        },
+        "apple": {
+          "url": "https://apps.apple.com/us/app/bfban/id6446828173"
+        }
+      }
+    },
+    {
+      "version": "0.2.9",
+      "stage": "release",
+      "platform": {
+        "google-play": {
+          "url": "https://play.google.com/store/apps/details?id=com.cabbagelol.bfban"
+        },
+        "apple": {
+          "url": "https://apps.apple.com/us/app/bfban/id6446828173"
+        }
+      }
+    },
+    {
+      "version": "0.2.9",
+      "stage": "beta",
+      "platform": {
+        "google-play-test": {
+          "url": "https://play.google.com/apps/testing/com.cabbagelol.bfban"
+        },
+        "apple-test": {
+          "url": "https://testflight.apple.com/join/PulChYQj"
+        }
+      }
+    },
+    {
+      "version": "0.2.8",
+      "stage": "release",
+      "platform": {
+        "google-play": {
+          "url": "https://play.google.com/store/apps/details?id=com.cabbagelol.bfban"
+        },
+        "apple": {
+          "url": "https://apps.apple.com/us/app/bfban/id6446828173"
+        }
+      }
+    },
+    {
+      "version": "0.2.8",
+      "stage": "beta",
+      "platform": {
+        "google-play-test": {
+          "url": "https://play.google.com/apps/testing/com.cabbagelol.bfban"
+        },
+        "apple-test": {
+          "url": "https://testflight.apple.com/join/PulChYQj"
+        }
+      }
+    },
+    {
+      "version": "0.2.7",
+      "stage": "release",
+      "platform": {
+        "google-play": {
+          "url": "https://play.google.com/store/apps/details?id=com.cabbagelol.bfban"
+        },
+        "apple": {
+          "url": "https://apps.apple.com/us/app/bfban/id6446828173"
+        }
+      }
+    },
+    {
+      "version": "0.2.7",
+      "stage": "beta",
+      "platform": {
+        "google-play-test": {
+          "url": "https://play.google.com/apps/testing/com.cabbagelol.bfban"
+        },
+        "apple-test": {
+          "url": "https://testflight.apple.com/join/PulChYQj"
+        }
+      }
+    },
+    {
+      "version": "0.2.6",
+      "stage": "release",
+      "platform": {
+        "google-play": {
+          "url": "https://play.google.com/store/apps/details?id=com.cabbagelol.bfban"
+        },
+        "apple": {
+          "url": "https://apps.apple.com/us/app/bfban/id6446828173"
+        }
+      }
+    },
+    {
+      "version": "0.2.5",
+      "stage": "release",
+      "platform": {
+        "google-play": {
+          "url": "https://play.google.com/store/apps/details?id=com.cabbagelol.bfban"
+        },
+        "apple": {
+          "url": "https://apps.apple.com/us/app/bfban/id6446828173"
+        }
+      }
+    },
+    {
+      "version": "0.2.5",
+      "stage": "beta",
+      "platform": {
+        "google-play-test": {
+          "url": "https://play.google.com/apps/testing/com.cabbagelol.bfban"
+        },
+        "apple-test": {
+          "url": "https://testflight.apple.com/join/PulChYQj"
+        }
+      }
+    },
+    {
+      "version": "0.2.4",
+      "stage": "beta",
+      "platform": {}
+    },
+    {
+      "version": "0.2.3",
+      "stage": "beta",
+      "platform": {}
+    },
+    {
+      "version": "0.2.2",
+      "stage": "beta",
+      "platform": {
+        "github-android": {
+          "url": "https://github.com/cabbagelol/bfban-app-mobile/releases/tag/v0.2.2-beta"
+        }
+      }
+    },
+    {
+      "version": "0.0.4",
+      "stage": "beta",
+      "src": "https://github.com/cabbagelol/bfbanApp/bfban-app-mobile/tag/v0.0.4-beta"
+    },
+    {
+      "version": "0.0.3",
+      "stage": "beta",
+      "src": "https://github.com/cabbagelol/bfbanApp/bfban-app-mobile/tag/v0.0.3-beta"
+    },
+    {
+      "version": "0.0.2",
+      "stage": "beta",
+      "src": "https://github.com/cabbagelol/bfbanApp/bfban-app-mobile/tag/v0.0.2-beta"
+    },
+    {
+      "version": "0.0.1",
+      "stage": "beta",
+      "src": "https://github.com/cabbagelol/bfbanApp/bfban-app-mobile/tag/v0.0.1-beta"
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+.version-list-box {
+    display: block;
+    columns: 3;
+    column-gap: 10px;
+}

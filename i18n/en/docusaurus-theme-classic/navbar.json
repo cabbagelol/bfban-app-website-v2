@@ -1,0 +1,22 @@
+{
+  "title": {
+    "message": "BFBAN APP",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "logo",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Blog": {
+    "message": "Blog",
+    "description": "Navbar item with label Blog"
+  },
+  "item.label.DevDocs": {
+    "message": "DevDocs",
+    "description": "Navbar item with label DevDocs"
+  },
+  "item.label.More": {
+    "message": "More",
+    "description": "Navbar item with label More"
+  }
+}

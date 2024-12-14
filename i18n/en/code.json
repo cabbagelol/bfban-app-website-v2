@@ -1,0 +1,74 @@
+{
+  "title": {
+    "message": "BFBAN Assistant App"
+  },
+  "nav.home": {
+    "message": "Home"
+  },
+  "nav.officeWebSite": {
+    "message": "Official BFBAN Website"
+  },
+  "agreement.userAgreement": {
+    "message": "User Agreement"
+  },
+  "agreement.privacyAgreement": {
+    "message": "Privacy Policy"
+  },
+  "home.h1-name": {
+    "message": "BFBAN"
+  },
+  "home.h1": {
+    "message": "Investigation Bureau Application"
+  },
+  "home.h2": {
+    "message": "A mobile application developed based on the BFBAN open-source community, optimized for local interactions on BFBAN.com with mobile devices."
+  },
+  "home.hint": {
+    "message": "This application is supported by the BFBAN community and does not manage any accounts."
+  },
+  "home.downloadShow.button": {
+    "message": "Click to Download BFBAN Assistant"
+  },
+  "home.downloadShow.downloadQRCode": {
+    "message": "Download by scanning the QR code"
+  },
+  "home.downloadShow.title": {
+    "message": "Download Platform"
+  },
+  "home.downloadShow.fromFormal": {
+    "message": "Official"
+  },
+  "home.downloadShow.fromTest": {
+    "message": "Test"
+  },
+  "home.downloadMore.1": {
+    "message": "Test Application"
+  },
+  "home.downloadMore.2": {
+    "message": "Feedback"
+  },
+  "home.downloadMore.3": {
+    "message": "Documentation"
+  },
+  "home.downloadMore.4": {
+    "message": "Donate"
+  },
+  "home.version": {
+    "message": "Version"
+  },
+  "home.release": {
+    "message": "Release Number"
+  },
+  "home.other": {
+    "message": "Other"
+  },
+  "home.newVersion": {
+    "message": "New Version"
+  },
+  "footer.main.description": {
+    "message": "Developed by cabbagelol and implemented based on the bfban service, bfban assistants app"
+  },
+  "footer.main.title": {
+    "message": "©Bfban Assistants App 2021-{endTime}"
+  }
+}
