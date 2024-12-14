@@ -8,7 +8,10 @@ const config: Config = {
     url: 'https://bfban-app.cabbagelol.net',
     baseUrl: '/',
 
-    projectName: 'bfban app',
+    organizationName: 'cabbagelol',
+    projectName: 'bfban-app-website-v2',
+    deploymentBranch: 'cabbagelol.github.io',
+    trailingSlash: false,
 
     onBrokenLinks: 'throw',
     onBrokenMarkdownLinks: 'warn',
