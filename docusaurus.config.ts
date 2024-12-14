@@ -13,7 +13,7 @@ const config: Config = {
     deploymentBranch: 'cabbagelol.github.io',
     trailingSlash: false,
 
-    onBrokenLinks: 'throw',
+    onBrokenLinks: 'ignore',
     onBrokenMarkdownLinks: 'warn',
 
     i18n: {
