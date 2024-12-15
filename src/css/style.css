@@ -2,6 +2,10 @@ html, body {
     background: transparent;
 }
 
+hr {
+    opacity: .8;
+}
+
 .main {
     background-image: url("/svg/bk1.svg");
     background-repeat: repeat;

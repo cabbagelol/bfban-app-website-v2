@@ -59,7 +59,13 @@ const config: Config = {
                     sidebarPath: './sidebars.ts',
                 },
                 blog: {
+                    blogTitle: 'BFBAN App blog!',
+                    blogDescription: 'A Docusaurus powered blog!',
                     showReadingTime: true,
+                    readingTime: ({content, frontMatter, defaultReadingTime}) => defaultReadingTime({
+                        content,
+                        options: {wordsPerMinute: 300}
+                    }),
                     feedOptions: {
                         type: ['rss', 'atom'],
                         xslt: true,
@@ -75,12 +81,14 @@ const config: Config = {
         ],
     ],
 
+
     themeConfig: {
         image: 'img/docusaurus-social-card.jpg',
         docs: {
             sidebar: {
-                autoCollapseCategories: true,
-            }
+                hideable: false,
+                autoCollapseCategories: false,
+            },
         },
         navbar: {
             title: 'BFBAN APP',
@@ -129,6 +137,10 @@ const config: Config = {
                             label: 'bfban-exterior-design',
                             href: 'https://github.com/BFBAN/exterior-design',
                         },
+                        {
+                            label: 'Contact',
+                            href: '/contact',
+                        },
                     ],
                 },
                 {
@@ -150,7 +162,7 @@ const config: Config = {
                 from: '/docs/',
                 to: '/',
             },
-        }
+        },
     } satisfies Preset.ThemeConfig,
 };
 

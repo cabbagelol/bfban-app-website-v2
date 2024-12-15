@@ -1,6 +1,7 @@
 ---
 layout: default
 title: 深链
+parent: 开发
 nav_order: 2
 has_children: true
 ---
