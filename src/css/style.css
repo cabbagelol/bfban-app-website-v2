@@ -15,6 +15,10 @@ hr {
     background: #354e80 !important;
 }
 
+.header, .navbar .clean-btn {
+    color: #fff !important;
+}
+
 .exhibition-box {
     overflow: hidden;
 }
