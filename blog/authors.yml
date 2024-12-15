@@ -1,6 +1,13 @@
-Official:
-  name: BFBAN APP Official
+OfficialBlog:
+  name: BFBAN APP Blog Official
   title: (*╹▽╹*)
   url: https://bfban-app.cabbagelol.net
   image_url: /images/logo.png
+  page: false
+
+OfficialVersion:
+  name: Version Official
+  title: 无情版本发布机器
+  url: https://bfban-app.cabbagelol.net
+  image_url: /images/bot-all.png
   page: false

@@ -59,8 +59,8 @@ const config: Config = {
                     sidebarPath: './sidebars.ts',
                 },
                 blog: {
-                    blogTitle: 'BFBAN App blog!',
-                    blogDescription: 'A Docusaurus powered blog!',
+                    blogSidebarCount: 'ALL',
+                    blogSidebarTitle: " ",
                     showReadingTime: true,
                     readingTime: ({content, frontMatter, defaultReadingTime}) => defaultReadingTime({
                         content,
@@ -72,7 +72,7 @@ const config: Config = {
                     },
                     onInlineTags: 'warn',
                     onInlineAuthors: 'warn',
-                    onUntruncatedBlogPosts: 'warn',
+                    onUntruncatedBlogPosts: 'ignore',
                 },
                 theme: {
                     customCss: ['./src/css/custom.css', './src/css/style.css'],
