@@ -11,7 +11,7 @@ function HomepageContent() {
             <div className="container">
                 <section className="row">
                     <div className="col-12 col-sm-9 col-md-5">
-                        <div className="container">
+                        <div className="container mt-5">
                             <h1>
                                 <Translate id="title"></Translate>
                             </h1>
@@ -172,7 +172,7 @@ function HomepageContent() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-12 col-sm-3 col-md-7 exhibition-box" style={{minHeight: '100vh'}}>
+                    <div className="col-12 col-sm-3 col-md-7 exhibition-box" style={{height: '700px'}}>
                         <img src="./images/exhibition.png" className="exhibition"/>
                     </div>
                 </section>

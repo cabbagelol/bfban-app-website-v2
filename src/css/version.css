@@ -2,4 +2,5 @@
     display: block;
     columns: 3;
     column-gap: 10px;
+    min-height: 80vh;
 }

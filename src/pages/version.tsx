@@ -5,6 +5,7 @@ import Header from "@site/src/components/Headr";
 import versionStyle from '../css/version.css';
 
 import clsx from "clsx";
+import Footer from "@site/src/components/Footer";
 
 export default function VersionPage({}) {
     let [version, setVersion] = useState([]);
@@ -26,7 +27,7 @@ export default function VersionPage({}) {
         <Layout>
             <Header/>
             <main>
-                <div className="container mt-5">
+                <div className="container mt-5 pb-5">
                     <h1>App Version Log</h1>
                     <p>All available versions</p>
                     <hr/>
@@ -44,6 +45,7 @@ export default function VersionPage({}) {
                     </div>
                 </div>
             </main>
+            <Footer/>
         </Layout>
     );
 }

@@ -101,7 +101,7 @@ const config: Config = {
                 },
                 {
                     type: 'docSidebar',
-                    sidebarId: 'tutorialSidebar',
+                    sidebarId: 'docsSidebar',
                     position: 'left',
                     label: 'DevDocs',
                 },
@@ -141,16 +141,16 @@ const config: Config = {
             theme: prismThemes.github,
             darkTheme: prismThemes.dracula,
         },
-        // algolia: {
-        //     appId: 'JCBV6EWND9',
-        //     apiKey: 'bcd2b7b6c4fe2d90e4dbecd88c909735',
-        //     indexName: 'movies_index',
-        //     contextualSearch: true,
-        //     replaceSearchResultPathname: {
-        //         from: '/docs/',
-        //         to: '/',
-        //     },
-        // }
+        algolia: {
+            appId: 'JCBV6EWND9',
+            apiKey: 'bcd2b7b6c4fe2d90e4dbecd88c909735',
+            indexName: 'movies_index',
+            contextualSearch: true,
+            replaceSearchResultPathname: {
+                from: '/docs/',
+                to: '/',
+            },
+        }
     } satisfies Preset.ThemeConfig,
 };
 

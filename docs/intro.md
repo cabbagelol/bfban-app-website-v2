@@ -14,7 +14,7 @@ sidebar_position: 1
 
 ---
 
-## Q&A
+## 问答
 
 **Q: 使用BFBAN APP登录账户为何网页版账户掉线？**
 

@@ -1,18 +1,22 @@
 {
   "title": {
-    "message": "BFBAN APP",
+    "message": "BFBAN Assistants",
     "description": "The title in the navbar"
   },
   "logo.alt": {
     "message": "logo",
     "description": "The alt text of navbar logo"
   },
+  "item.label.Version": {
+    "message": "Version",
+    "description": "Navbar item with label Blog"
+  },
   "item.label.Blog": {
     "message": "Blog",
     "description": "Navbar item with label Blog"
   },
   "item.label.DevDocs": {
-    "message": "DevDocs",
+    "message": "Dev Docs",
     "description": "Navbar item with label DevDocs"
   },
   "item.label.More": {
