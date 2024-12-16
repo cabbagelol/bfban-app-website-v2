@@ -6,6 +6,7 @@ import versionStyle from '../css/version.css';
 
 import clsx from "clsx";
 import Footer from "@site/src/components/Footer";
+import Link from "@docusaurus/Link";
 
 export default function VersionPage({}) {
     let [version, setVersion] = useState([]);
@@ -35,7 +36,9 @@ export default function VersionPage({}) {
                         {
                             version.map((i, index) => (
                                 <div className="row">
-                                    <h2 className="col-9">{i.version} </h2>
+                                    <h2 className="col-9">
+                                        { i.version ? <Link to={`/blog/version.${i.version}`}>{i.version}</Link> : null }
+                                    </h2>
                                     <span className="col-3 text-right">
                                         <u>{i.stage}</u>
                                     </span>

@@ -59,8 +59,9 @@ const config: Config = {
                     sidebarPath: './sidebars.ts',
                 },
                 blog: {
+                    blogDescription: "可爱",
                     blogSidebarCount: 'ALL',
-                    blogSidebarTitle: " ",
+                    blogSidebarTitle: "📰 Blog",
                     showReadingTime: true,
                     readingTime: ({content, frontMatter, defaultReadingTime}) => defaultReadingTime({
                         content,
@@ -83,7 +84,6 @@ const config: Config = {
 
 
     themeConfig: {
-        image: 'img/docusaurus-social-card.jpg',
         docs: {
             sidebar: {
                 hideable: false,
@@ -95,6 +95,7 @@ const config: Config = {
             logo: {
                 alt: 'logo',
                 src: 'images/logo.png',
+                className: 'rounded-4'
             },
             items: [
                 {
@@ -156,7 +157,7 @@ const config: Config = {
         algolia: {
             appId: 'JCBV6EWND9',
             apiKey: 'ff9ff5081f8c5dbc5f184c076430ee47',
-            indexName: 'movies_index',
+            indexName: 'crawler_bfban-app-website',
         },
     } satisfies Preset.ThemeConfig,
 };
