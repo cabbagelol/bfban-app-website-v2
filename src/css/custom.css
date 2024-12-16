@@ -1,27 +1,35 @@
 :root {
-  --ifm-color-primary: #253b67;
-  --ifm-color-primary-dark: #253b67;
-  --ifm-color-primary-darker: #253b67;
-  --ifm-color-primary-darkest: #192b50;
-  --ifm-color-primary-light: #253b67;
-  --ifm-color-primary-lighter: #253b67;
-  --ifm-color-primary-lightest: #253b67;
-  --ifm-code-font-size: 95%;
-  --ifm-navbar-link-color: rgba(255, 255, 255, 0.66);
-  --ifm-navbar-link-hover-color: #fff;
-  --ifm-color-emphasis-200: --ifm-color-primary-darkest;
+    --ifm-color-primary: #253b67;
+    --ifm-color-primary-dark: #253b67;
+    --ifm-color-primary-darker: #253b67;
+    --ifm-color-primary-darkest: #192b50;
+    --ifm-color-primary-light: #253b67;
+    --ifm-color-primary-lighter: #253b67;
+    --ifm-color-primary-lightest: #253b67;
+    --ifm-code-font-size: 95%;
+    --ifm-navbar-link-color: rgba(255, 255, 255, 0.66);
+    --ifm-navbar-link-hover-color: #fff;
+    --ifm-color-emphasis-200: --ifm-color-primary-darkest;
+    --ifm-navbar-background-color: #354e80;
+    --ifm-footer-background-color: #ffc107;
+    --ifm-toc-border-color: #f2f2f2;
+    --ifm-hr-background-color: --ifm-toc-border-color;
 }
 
 [data-theme='dark'] {
-  --ifm-color-primary: #fff;
-  --ifm-color-primary-dark: #fff;
-  --ifm-color-primary-darker: rgba(255, 255, 255, 0.76);
-  --ifm-color-primary-darkest: rgba(255, 255, 255, 0.53);
-  --ifm-color-primary-light: #fff;
-  --ifm-color-primary-lighter: #fff;
-  --ifm-color-primary-lightest: #fff;
-  --bs-body-color: #fff;
-  --bs-secondary-color: --ifm-color-primary-darkest;
-  --ifm-color-emphasis-200: --ifm-color-primary-darker;
-  --ifm-color-gray-500: --ifm-color-primary-darker;
+    --ifm-color-primary: #fff;
+    --ifm-color-primary-dark: #fff;
+    --ifm-color-primary-darker: rgba(255, 255, 255, 0.76);
+    --ifm-color-primary-darkest: rgba(255, 255, 255, 0.53);
+    --ifm-color-primary-light: #fff;
+    --ifm-color-primary-lighter: #fff;
+    --ifm-color-primary-lightest: #fff;
+    --bs-body-color: #fff;
+    --bs-secondary-color: --ifm-color-primary-darkest;
+    --ifm-color-emphasis-200: --ifm-color-primary-darker;
+    --ifm-color-gray-500: --ifm-color-primary-darker;
+    --ifm-navbar-background-color: #14223d;
+    --ifm-footer-background-color: #7e6100;
+    --ifm-toc-border-color: #181818 !important;;
+    --ifm-hr-background-color: --ifm-toc-border-color;
 }

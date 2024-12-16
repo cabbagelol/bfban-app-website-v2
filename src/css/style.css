@@ -11,10 +11,6 @@ hr {
     background-repeat: repeat;
 }
 
-.header, .navbar {
-    background: #354e80 !important;
-}
-
 .header, .navbar .clean-btn {
     color: #fff !important;
 }

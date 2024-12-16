@@ -155,13 +155,8 @@ const config: Config = {
         },
         algolia: {
             appId: 'JCBV6EWND9',
-            apiKey: 'bcd2b7b6c4fe2d90e4dbecd88c909735',
+            apiKey: 'ff9ff5081f8c5dbc5f184c076430ee47',
             indexName: 'movies_index',
-            contextualSearch: true,
-            replaceSearchResultPathname: {
-                from: '/docs/',
-                to: '/',
-            },
         },
     } satisfies Preset.ThemeConfig,
 };
