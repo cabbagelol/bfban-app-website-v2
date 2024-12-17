@@ -1,6 +1,34 @@
 {
   "list": [
     {
+      "version": "0.2.13",
+      "build-number": {
+        "ios": [
+          1
+        ],
+        "android": [
+          49,
+          50
+        ],
+        "hap": [
+          1
+        ]
+      },
+      "stage": "beta",
+      "platform": {
+        "google-play-test": {
+          "url": "https://play.google.com/apps/testing/com.cabbagelol.bfban"
+        },
+        "apple-test": {
+          "url": "https://testflight.apple.com/join/PulChYQj"
+        }
+      },
+      "options": {
+        "forced-push": false,
+        "D": false
+      }
+    },
+    {
       "version": "0.2.12",
       "build-number": {
         "ios": [

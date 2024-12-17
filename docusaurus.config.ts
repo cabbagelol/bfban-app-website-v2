@@ -16,6 +16,8 @@ const config: Config = {
     onBrokenLinks: 'ignore',
     onBrokenMarkdownLinks: 'warn',
 
+    staticDirectories: ['i18n', 'static'],
+
     i18n: {
         defaultLocale: 'en',
         locales: ['zh', 'en'],
@@ -82,6 +84,9 @@ const config: Config = {
         ],
     ],
 
+    themes: [
+        '@docusaurus/theme-live-codeblock'
+    ],
 
     themeConfig: {
         docs: {

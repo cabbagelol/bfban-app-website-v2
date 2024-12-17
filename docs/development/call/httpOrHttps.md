@@ -28,8 +28,7 @@ https://bfban-app.as.cabbagelol.net
 
 ## 代码实现
 
-worker.js
-```javascript
+```javascript title="worker.js"
 var worker_default = {
   async fetch(request) {
     const timeout = 1200;

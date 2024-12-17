@@ -2,8 +2,9 @@ html, body {
     background: transparent;
 }
 
-hr {
-    opacity: .8;
+table {
+    display: inline-table;
+    width: 100%;
 }
 
 .main::after {
@@ -44,19 +45,4 @@ hr {
     border-bottom: 2px solid #1c325d;
     background-color: #354e80;
     color: #fff;
-}
-
-.hq {
-    padding-top: 100px;
-    padding-bottom: 50px;
-    border-top: 1px solid #f2f2f2;
-}
-
-.bi {
-    font-size: 1rem;
-}
-
-.bi.bi-x-circle {
-    color: #ffc107 !important;
-    font-weight: bold;
 }

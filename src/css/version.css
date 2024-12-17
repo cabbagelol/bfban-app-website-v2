@@ -1,6 +1,17 @@
 .version-list-box {
-    display: block;
-    columns: 3;
-    column-gap: 10px;
-    min-height: 80vh;
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    column-gap: 15px;
+}
+
+@media (max-width: 1024px) {
+    .version-list-box {
+        grid-template-columns: 100% !important;
+        column-gap: 10px !important;
+    }
+}
+
+
+.version-list-box > * {
+
 }
