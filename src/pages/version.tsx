@@ -10,7 +10,8 @@ import Link from "@docusaurus/Link";
 
 export default function VersionPage({}) {
     let [version, setVersion] = useState([]),
-        [searchValue, setSearchValue] = useState('');
+        [searchValue, setSearchValue] = useState(''),
+        [packName, setPackName] = useState('com.cabbagelol.bfban');
 
     useEffect(() => {
         onReady().then(r => r);
@@ -42,11 +43,11 @@ export default function VersionPage({}) {
                             </div>
                         </div>
                     </div>
-                    <hr/>
+                    <hr className="m-1" />
                     <div className={clsx('version-list-box', versionStyle)}>
                         {
                             version.filter(item => item.version.indexOf(searchValue) > -1).map((i, index) => (
-                                <div className="border-sm border rounded p-3 mb-3">
+                                <div className="border-sm border rounded p-3 mb-3" key={index}>
                                     <div className="row">
                                         <div className="col-6 d-flex mb-2 border-bottom w-100">
                                             <h2 className="flex-grow-1">
@@ -66,11 +67,16 @@ export default function VersionPage({}) {
                                         <div className="text-right">
                                             <b>Stage</b>: <u>{i.stage}</u>
                                         </div>
+                                        <div className="text-right">
+                                            <b>Package Name</b>: <i>{packName}</i>
+                                        </div>
                                         <div>
                                             <b>BuildNumber</b>:
                                             <ul>
                                                 {i['build-number'] ? Object.entries(i['build-number']).map(([j_key, j_value], j_index) => (
-                                                    <li>{j_key as any}: {j_value as any} </li>
+                                                    <li key={j_index}>{j_key as any}: <ol>
+                                                        {(j_value as any).sort().join('/')}
+                                                    </ol></li>
                                                 )) : 'N/A'}
                                             </ul>
                                         </div>
@@ -78,8 +84,9 @@ export default function VersionPage({}) {
                                             <b>Platform</b>:
                                             <ul>
                                                 {i['platform'] ? Object.entries(i['platform']).map(([j_key, j_value], j_index) => (
-                                                    <li><Link
+                                                    <li key={j_index}><Link
                                                         to={j_value['url'] || 'Key None'}>{j_key as any || 'Value None'}</Link>
+                                                        <i className="bi bi-link-45deg"></i>
                                                     </li>
                                                 )) : 'N/A'}
                                             </ul>
