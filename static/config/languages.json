@@ -2,54 +2,14 @@
   "title": "Language List",
   "default": "en-US",
   "child": [
-    {
-      "name": "de-DE",
-      "label": "Deutsch",
-      "fileName": "de",
-      "members": []
-    },
-    {
-      "name": "en-US",
-      "label": "English",
-      "fileName": "en",
-      "members": [{
-        "name":"B1397KB"
-      }, {
-        "name":"Return_Log"
-      }]
-    },
-    {
-      "name": "es-ES",
-      "label": "Español",
-      "fileName": "es",
-      "members": []
-    },
-    {
-      "name": "it-IT",
-      "label": "Italiano",
-      "fileName": "it",
-      "members": []
-    },
-    {
-      "name": "ja-JP",
-      "label": "日本语",
-      "fileName": "ja_JP",
-      "members": []
-    },
-    {
-      "name": "zh-CN",
-      "label": "简体中文",
-      "fileName": "zh_CN",
-      "main": true,
-      "members": []
-    },
-    {
-      "name": "zh-TW",
-      "label": "繁体中文",
-      "fileName": "zh_TW",
-      "members": [{
-        "name": "s0110527"
-      }]
-    }
+    { "name": "de-DE", "label": "Deutsch", "fileName": "de", "members": [] },
+    { "name": "en-US", "label": "English", "fileName": "en", "members": [{ "name": "B1397KB" }, { "name": "Return_Log" }] },
+    { "name": "es-ES", "label": "Español", "fileName": "es", "members": [] },
+    { "name": "fr-FR", "label": "French", "fileName": "fr_FR", "members": [] },
+    { "name": "it-IT", "label": "Italiano", "fileName": "it", "members": [] },
+    { "name": "ja-JP", "label": "Japanese", "fileName": "ja_JP", "members": [] },
+    { "name": "ru-RU", "label": "Russian", "fileName": "ru_RU", "members": [] },
+    { "name": "zh-CN", "label": "简体中文", "fileName": "zh_CN", "main": true, "members": [] },
+    { "name": "zh-TW", "label": "繁体中文", "fileName": "zh_TW", "members": [{ "name": "s0110527" }] }
   ]
 }
