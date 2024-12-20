@@ -22,5 +22,11 @@
   "item.label.More": {
     "message": "More",
     "description": "Navbar item with label More"
+  },
+  "item.label.bfban-exterior-design": {
+    "message": "Exterior Design"
+  },
+  "item.label.bfban-app-test-links": {
+    "message": "App Test Links"
   }
 }

@@ -10,13 +10,15 @@
     --ifm-code-font-size: 95%;
     --ifm-navbar-link-color: rgba(255, 255, 255, 0.66);
     --ifm-navbar-link-hover-color: #fff;
-    --ifm-color-emphasis-200: --ifm-color-primary-darkest;
+    --ifm-color-emphasis-200: var(--ifm-color-primary-darkest);
     --ifm-navbar-background-color: #354e80;
     --ifm-footer-background-color: #ffc107;
     --ifm-toc-border-color: #f2f2f2;
-    --ifm-hr-background-color: --ifm-toc-border-color !important;
-    --ifm-menu-color: --ifm-navbar-link-color !important;
+    --ifm-hr-background-color: #c2c2c2;
+    --ifm-menu-color: var(--ifm-color-primary) !important;
+    --ifm-link-color: #204b9d;
 
+    --bs-code-color: var(--ifm-link-color) !important;
     --ifm-avatar-photo-size: 35px !important;
     --doc-sidebar-width: 250px !important;
 }
@@ -31,12 +33,16 @@
     --ifm-color-primary-lightest: #ffffff;
 
     --bs-body-color: #f8f8f8;
-    --bs-secondary-color: --ifm-color-primary-darkest;
+    --bs-secondary-color: var(--ifm-color-primary-darkest);
+    --ifm-color-emphasis: #3232e3 !important;
     --ifm-color-emphasis-200: --ifm-color-primary-darker;
-    --ifm-color-gray-500: --ifm-color-primary-darker;
+    --ifm-color-emphasis-300: #383838 !important;
+    --ifm-pagination-nav-color-hover: #6c6c6c;
+
+    --ifm-color-gray-500: var(--ifm-color-primary-darker);
     --ifm-navbar-background-color: #14223d;
     --ifm-footer-background-color: #7e6100;
     --ifm-toc-border-color: #181818 !important;
-    --ifm-hr-background-color: --ifm-toc-border-color;
+    --ifm-hr-background-color: var(--ifm-toc-border-color);
     --docsearch-highlight-color: #000 !important;
 }

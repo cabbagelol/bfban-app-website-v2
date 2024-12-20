@@ -12,21 +12,37 @@ nav_order: 3
 
 [https://developer.android.com/training/package-visibility](https://developer.android.com/training/package-visibility)
 
-```java
-private boolean isPackageInstalled(String packageName, PackageManager packageManager) {
-    try {
-        packageManager.getPackageInfo(packageName, 0);
-        return true;
-    } catch (PackageManager.NameNotFoundException e) {
-        return false;
+<Tabs>
+  <TabItem value="java" label="Java" default>
+    ```java title="isPackageInstalled.java"
+    private boolean isPackageInstalled(String packageName, PackageManager packageManager) {
+        try {
+            packageManager.getPackageInfo(packageName, 0);
+            return true;
+        } catch (PackageManager.NameNotFoundException e) {
+            return false;
+        }
     }
-}
-```
+    ```
+  </TabItem>
+  <TabItem value="kotlin" label="kotlin">
+    ```kotlin title="isPackageInstalled.kt"
+    private fun isPackageInstalled(packageName: String, packageManager: PackageManager): Boolean =
+        try {
+            packageManager.getPackageInfo(packageName, 0)
+            true
+        } catch (e: PackageManager.NameNotFoundException) {
+            false
+        }
+    ```
+  </TabItem>
+</Tabs>
+
 
 ## ios
 bundle ID: `com.cabbagelol.bfban`
 
-```
+```swift  title="isPackageInstalled.swift"
 Class LSApplicationWorkspace_class = objc_getClass("LSApplicationWorkspace");
 NSObject* workspace = [LSApplicationWorkspace_class performSelector:@selector(defaultWorkspace)];
 NSArray *allApplications = [workspace performSelector:@selector(allApplications)];

@@ -26,5 +26,11 @@
   "item.label.BFBAN": {
     "message": "BFBAN",
     "description": "Navbar item with label BFBAN"
+  },
+  "item.label.bfban-exterior-design": {
+    "message": "艺术设计"
+  },
+  "item.label.bfban-app-test-links": {
+    "message": "测试链接"
   }
 }
