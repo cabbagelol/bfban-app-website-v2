@@ -4,10 +4,37 @@
       "version": "0.2.13",
       "build-number": {
         "ios": [
+          51
+        ],
+        "android": [
+          51
+        ],
+        "hap": [
+          1
+        ]
+      },
+      "stage": "release",
+      "platform": {
+        "google-play": {
+          "url": "https://play.google.com/store/apps/details?id=com.cabbagelol.bfban"
+        },
+        "apple": {
+          "url": "https://apps.apple.com/app/bfban/id6446828173"
+        }
+      },
+      "options": {
+        "forced-push": false
+      }
+    },
+    {
+      "version": "0.2.13",
+      "build-number": {
+        "ios": [
           1
         ],
         "android": [
-          49
+          49,
+          50
         ],
         "hap": [
           1
@@ -23,8 +50,7 @@
         }
       },
       "options": {
-        "forced-push": false,
-        "D": false
+        "forced-push": false
       }
     },
     {
