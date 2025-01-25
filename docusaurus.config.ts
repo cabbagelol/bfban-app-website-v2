@@ -73,8 +73,8 @@ const config: Config = {
                         type: ['rss', 'atom'],
                         xslt: true,
                     },
-                    onInlineTags: 'warn',
-                    onInlineAuthors: 'warn',
+                    onInlineTags: 'ignore',
+                    onInlineAuthors: 'ignore',
                     onUntruncatedBlogPosts: 'ignore',
                 },
                 theme: {

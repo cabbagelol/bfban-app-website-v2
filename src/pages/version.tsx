@@ -2,7 +2,7 @@ import React, {useEffect, useState} from 'react';
 import Layout from '@theme/Layout';
 import Header from "@site/src/components/Headr";
 
-import versionStyle from '../css/version.css';
+import versionStyle from '@site/src/css/version.css';
 
 import clsx from "clsx";
 import Link from "@docusaurus/Link";
