@@ -1,0 +1,28 @@
+{
+  "Android": {
+    "default": {
+      "value": "Google Play",
+      "type": "formal"
+    },
+    "Google Play": {
+      "test": "https://play.google.com/apps/testing/com.cabbagelol.bfban",
+      "formal": "https://play.google.com/store/apps/details?id=com.cabbagelol.bfban"
+    },
+    "F Droid": {
+      "formal": "https://f-droid.org/packages/com.cabbagelol.bfban/"
+    },
+    "Github": {
+      "formal": "https://github.com/bfban/bfban-app-mobile/releases"
+    }
+  },
+  "ipa": {
+    "default": {
+      "value": "Apple Store",
+      "type": "formal"
+    },
+    "Apple Store": {
+      "formal": "https://apps.apple.com/us/app/bfban/id6446828173",
+      "test": "https://testflight.apple.com/join/PulChYQj"
+    }
+  }
+}

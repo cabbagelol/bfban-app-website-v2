@@ -46,5 +46,16 @@
   },
   "engines": {
     "node": ">=18.0"
+  },
+  "overrides": {
+    "@babel/helper-module-imports": "~7.22.15"
+  },
+  "pnpm": {
+    "overrides": {
+      "@babel/helper-module-imports": "~7.22.15"
+    }
+  },
+  "resolutions": {
+    "@babel/helper-module-imports": "~7.22.15"
   }
 }

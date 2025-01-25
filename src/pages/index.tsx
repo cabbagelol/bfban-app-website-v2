@@ -1,9 +1,9 @@
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import Translate from '@docusaurus/Translate';
-
 import Header from "@site/src/components/Headr";
-import Footer from "@site/src/components/Footer";
+
+import DownloadConfig from "@site/static/config/download.json";
 
 function HomepageContent() {
     return (
@@ -72,13 +72,13 @@ function HomepageContent() {
                                                         <th scope="row">Google Play</th>
                                                         <td>Android platform</td>
                                                         <td className="text-center">
-                                                            <a href="https://play.google.com/store/apps/details?id=com.cabbagelol.bfban"
+                                                            <a href={DownloadConfig.Android["Google Play"].formal}
                                                                target="_blank">
                                                                 <i className="bi bi-arrow-down-circle-fill"></i>
                                                             </a>
                                                         </td>
                                                         <td className="text-center">
-                                                            <a href="https://play.google.com/apps/testing/com.cabbagelol.bfban"
+                                                            <a href={DownloadConfig.Android["Google Play"].test}
                                                                target="_blank">
                                                                 <i className="bi bi-arrow-down-circle-fill"></i>
                                                             </a>
@@ -88,7 +88,7 @@ function HomepageContent() {
                                                         <th scope="row">F Droid</th>
                                                         <td>Android platform</td>
                                                         <td className="text-center">
-                                                            <a href="https://f-droid.org/en/packages/com.cabbagelol.bfban/"
+                                                            <a href={DownloadConfig.Android["F Droid"].formal}
                                                                target="_blank">
                                                                 <i className="bi bi-arrow-down-circle-fill"></i>
                                                             </a>
@@ -101,10 +101,9 @@ function HomepageContent() {
                                                         <th scope="row">Github BFBAN Build</th>
                                                         <td>Android platform</td>
                                                         <td className="text-center">
-                                                            <a href="https://github.com/bfban/bfban-app-mobile/releases"
+                                                            <a href={DownloadConfig.Android.Github.formal}
                                                                target="_blank"
-                                                               data-bs-toggle="tooltip" data-bs-placement="top"
-                                                               data-bs-title="更新慢">
+                                                               data-bs-toggle="tooltip" data-bs-placement="top">
                                                                 <i className="bi bi-arrow-down-circle-fill"></i>
                                                             </a>
                                                         </td>
@@ -136,13 +135,13 @@ function HomepageContent() {
                                                         <th scope="row">Apple Store</th>
                                                         <td>ios or macos platform</td>
                                                         <td className="text-center">
-                                                            <a href="https://apps.apple.com/us/app/bfban/id6446828173"
+                                                            <a href={DownloadConfig.ipa["Apple Store"].formal}
                                                                target="_blank">
                                                                 <i className="bi bi-arrow-down-circle-fill"></i>
                                                             </a>
                                                         </td>
                                                         <td className="text-center">
-                                                            <a href="https://testflight.apple.com/join/PulChYQj"
+                                                            <a href={DownloadConfig.ipa["Apple Store"].test}
                                                                target="_blank">
                                                                 <i className="bi bi-arrow-down-circle-fill"></i>
                                                             </a>
@@ -207,7 +206,7 @@ function HomepageContent() {
                                         {'n': '2', 'u': 'https://docs.qq.com/form/page/DVFFMS1lQbFVTUmNZ'},
                                         {'n': '3', 'u': '/docs/intro'},
                                         {'n': '4', 'u': 'https://cabbagelol.net/donations'}].map((item, index) => (
-                                        <li>
+                                        <li key={index}>
                                             <a className="dropdown-item" href={item.u} key={item.u} target="_blank">
                                                 <Translate id={"home.downloadMore." + item.n}></Translate>
                                             </a>
@@ -233,7 +232,6 @@ export default function Home(): JSX.Element {
             <main>
                 <HomepageContent/>
             </main>
-            <Footer/>
         </Layout>
     );
 }

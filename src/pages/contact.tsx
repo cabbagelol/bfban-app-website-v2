@@ -2,10 +2,6 @@ import React, {useEffect, useState} from 'react';
 import Layout from '@theme/Layout';
 import Header from "@site/src/components/Headr";
 
-import Footer from "@site/src/components/Footer";
-import {useBrokenLinksContext} from "@docusaurus/core/lib/client/BrokenLinksContext";
-import useBrokenLinks from "@docusaurus/useBrokenLinks";
-
 export default function ContactPage({}) {
     return (
         <Layout>
@@ -39,7 +35,6 @@ export default function ContactPage({}) {
                     </div>
                 </div>
             </main>
-            <Footer/>
         </Layout>
     );
 }

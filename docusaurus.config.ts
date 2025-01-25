@@ -155,6 +155,59 @@ const config: Config = {
                 },
             ],
         },
+        footer: {
+            style: 'light',
+            links: [
+                {
+                    title: "community",
+                    items: [
+
+                        {
+                            label: "Gametool discord",
+                            href: "https://discord.gametools.network"
+                        },
+                        {
+                            label: "BFBAN bfvrobot kook",
+                            href: "https://kook.top/6Q0FHY"
+                        },
+                        {
+                            label: "github (website)",
+                            href: "https://github.com/BFBAN/bfban-website"
+                        },
+                        {
+                            label: "github (announcement)",
+                            href: "https://github.com/BFBAN/bfban-website-announcement"
+                        },
+                    ]
+                },
+                {
+                    title: "connection",
+                    items: [
+                        {
+                            label: "contactUs",
+                            href: "mailto:services@bfban.com"
+                        },
+                        {
+                            label: "QQ Group",
+                            href: "https://jq.qq.com/?_wv=1027&k=FY8TCpCV"
+                        }
+                    ]
+                },
+                {
+                    title: "other",
+                    items: [
+                        {
+                            label: "about",
+                            href: "https://bfban.com/about"
+                        },
+                        {
+                            label: "link",
+                            href: "https://bfban.com/link"
+                        }
+                    ]
+                }
+            ]
+        },
         prism: {
             theme: prismThemes.github,
             darkTheme: prismThemes.dracula,

@@ -5,7 +5,6 @@ import Header from "@site/src/components/Headr";
 import versionStyle from '../css/version.css';
 
 import clsx from "clsx";
-import Footer from "@site/src/components/Footer";
 import Link from "@docusaurus/Link";
 
 export default function VersionPage({}) {
@@ -105,10 +104,7 @@ export default function VersionPage({}) {
                         )
                     }
                 </div>
-
-
             </main>
-            <Footer/>
         </Layout>
     );
 }
