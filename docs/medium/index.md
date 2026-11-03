@@ -1,8 +1,8 @@
 ---
 layout: default
 title: 媒体
-nav_order: 3
-sidebar_position: 3
+nav_order: 4
+sidebar_position: 4
 ---
 
 ## BFBAN APP 媒体管理器详解

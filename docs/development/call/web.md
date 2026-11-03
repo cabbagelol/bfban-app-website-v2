@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 网页调用(ts或js)
+title: 网页调用(TS或JS...)
 parent: 深链
 nav_order: 4
 ---
